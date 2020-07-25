@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="40dp"
+    tools:context=".MainActivity">
+
+    <com.example.textclock2.TextClock
+        android:id="@+id/txt"
+        app:typeReverse="true"
+        app:seconds="200"
+        app:clockTextColor="#e20c0c"
+        app:clockBorderWidth="6"
+        app:clockBorderColor="#8d0bf7"
+        android:layout_width="wrap_content"
+        android:textSize="40dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="clickStart"
+            android:background="@drawable/btnstyle"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+        <Button
+            android:onClick="clickReset"
+            android:layout_margin="5dp"
+            android:background="@drawable/btnstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset" />
+        <Button
+            android:onClick="clickPause"
+            android:background="@drawable/btnstyle"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pause" />
+        <Button
+            android:onClick="clickResume"
+            android:background="@drawable/btnstyle"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:text="Resume" />
+        
+    </LinearLayout>
+    
+</RelativeLayout>

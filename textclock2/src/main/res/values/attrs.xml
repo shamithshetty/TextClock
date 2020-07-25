@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Textview">
+        <attr name="clockTextColor" format="color|reference"/>
+        <attr name="clockBorderColor" format="color|reference"/>
+        <attr name="clockBorderWidth" format="integer"/>
+        <attr name="seconds" format="integer"/>
+        <attr name="typeReverse" format="boolean"/>
+    </declare-styleable>
+</resources>
