@@ -46,20 +46,13 @@ dependencies {
 ### Java
 
 ```
- String str[]={"str","tgg","ff","efwef"};
-        txt.setMovingtexts(str);
-        txt.setDuration(3000);
-        txt.setBold(true);
-        txt.setMovingcolor(Color.BLACK);
-        txt.setStartingcolor(Color.BLACK);
-        txt.setStaringValue("top company");
-        txt.startAnimation();
-        txt.stopAnimation();
-```
-  textClock.startClock();  is used to start timmer. we can use inside onCreate or button click event.
-  txt.resetClock();   is used to reset the timmer
+
+textClock.startClock();  is used to start timmer. we can use inside onCreate or button click event.
+text.resetClock();   is used to reset the timmer
 textClock.pauseClock();  is used to pause the timmer
- textClock.resumeClock(); is  used to resume the timmer 
+textClock.resumeClock(); is  used to resume the timmer 
+  
+```
 
 ###### Attr of XML
 ```
