@@ -18,7 +18,7 @@ allprojects {
 Add the dependency
 ```
 dependencies {
-	        implementation 'com.github.shamithshetty:TextClock:Tag'
+	        implementation 'com.github.shamithshetty:TextClock:1.0'
 	}
   ```
   
