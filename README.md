@@ -41,7 +41,7 @@ dependencies {
 ```
 ### Demo with border width 6
 
-<div align="center"><img src="clockpic.gif"/></div>
+<div align="center"><img src="clockpic.gif" width="300"/></div>
 
 ### Java
 
